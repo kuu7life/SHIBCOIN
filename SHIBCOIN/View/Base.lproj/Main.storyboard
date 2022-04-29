@@ -91,6 +91,11 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gF1-T4-4Bj" secondAttribute="trailing" id="hVE-uQ-lfz"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="currenclyLabel" destination="Xjx-1c-r1x" id="L8Q-BM-rCb"/>
+                        <outlet property="currencypicker" destination="79m-Fx-IHi" id="ggp-5h-n6S"/>
+                        <outlet property="priceLabel" destination="NPw-QK-Xqa" id="IfZ-aY-3HG"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
